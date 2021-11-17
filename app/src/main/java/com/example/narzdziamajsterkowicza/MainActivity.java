@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity  {
     button1.setOnClickListener(new View.OnClickListener() {
         @Override
         public void onClick(View v) {
-            openDyktafonAc();
+            openScannerAC();
         }
     });
 
@@ -76,9 +76,9 @@ public class MainActivity extends AppCompatActivity  {
         Toast.makeText(this, "Menu", Toast.LENGTH_SHORT).show();
         startActivity(intent);
     }
-    private void openDyktafonAc() {
-        Intent intent = new Intent(this, DyktafonAc.class);
-        Toast.makeText(this, "Dyktafon", Toast.LENGTH_SHORT).show();
+    private void openScannerAC() {
+        Intent intent = new Intent(this, ScannerAC.class);
+        Toast.makeText(this, "Skaner", Toast.LENGTH_SHORT).show();
         startActivity(intent);
     }
     private void openBarometrAc() {
