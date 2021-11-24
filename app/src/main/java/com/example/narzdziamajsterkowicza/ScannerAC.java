@@ -26,6 +26,9 @@ import org.jetbrains.annotations.NotNull;
 
 public class ScannerAC extends AppCompatActivity {
 
+
+
+
     private CodeScanner mCodeScanner;
     boolean CameraPermission = false;
     final int CAMERA_PERM = 1;
