@@ -3,6 +3,21 @@
     <string name="title_activity_maps">MapsActivity</string>
     <string name="title_activity_menu_b">MenuB</string>
 
+    <!-- Button TEXT ActivityMain -->
+    <string name="ButtonMAIN_1">Skaner QR</string>
+    <string name="ButtonMAIN_2">Barometr</string>
+    <string name="ButtonMAIN_3">Nachylenie</string>
+    <string name="ButtonMAIN_4">Akcelerometr</string>
+    <string name="ButtonMAIN_5">Mapa GPS</string>
+    <string name="ButtonMAIN_6">Kompas</string>
+    
+    <!-- Barometr -->
+    <string name="TitleBar">Barometr</string>
+    <string name="communicateBar">Ciśnienie jest równe:</string>
+    
+    
+    
+    
     <!-- Preference Titles -->
     <string name="messages_header">Messages</string>
     <string name="sync_header">Sync</string>
