@@ -48,7 +48,7 @@ public class MainActivity extends AppCompatActivity  {
     button3.setOnClickListener(new View.OnClickListener() {
         @Override
         public void onClick(View v) {
-            openNachylenieAc();
+            openTemperaturaAc();
         }
     });
     button4.setOnClickListener(new View.OnClickListener() {
@@ -86,9 +86,9 @@ public class MainActivity extends AppCompatActivity  {
         Toast.makeText(this, "Barometr", Toast.LENGTH_SHORT).show();
         startActivity(intent);
     }
-    private void openNachylenieAc() {
-        Intent intent = new Intent(this, NachylenieAc.class);
-        Toast.makeText(this, "Nachylenie", Toast.LENGTH_SHORT).show();
+    private void openTemperaturaAc() {
+        Intent intent = new Intent(this, TemperaturaAc.class);
+        Toast.makeText(this, "Termometr", Toast.LENGTH_SHORT).show();
         startActivity(intent);
     }
     private void openAkcelerometrAc() {

@@ -6,7 +6,7 @@
     <!-- Button TEXT ActivityMain -->
     <string name="ButtonMAIN_1">Skaner QR</string>
     <string name="ButtonMAIN_2">Barometr</string>
-    <string name="ButtonMAIN_3">Temperatura</string>
+    <string name="ButtonMAIN_3">Termometr</string>
     <string name="ButtonMAIN_4">Akcelerometr</string>
     <string name="ButtonMAIN_5">Mapa GPS</string>
     <string name="ButtonMAIN_6">Kompas</string>
@@ -14,7 +14,9 @@
     <!-- Barometr -->
     <string name="TitleBar">Barometr</string>
     <string name="communicateBar">Ciśnienie jest równe:</string>
-    
+
+    <!-- Termometr -->
+    <string name="TempText">Temperatura :</string>
     
     
     

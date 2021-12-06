@@ -12,7 +12,7 @@ import android.widget.TextView;
 
 import java.text.BreakIterator;
 
-public class NachylenieAc extends AppCompatActivity implements SensorEventListener {
+public class TemperaturaAc extends AppCompatActivity implements SensorEventListener {
     private TextView textview;
     private SensorManager sensorManager;
     private Sensor tempSensor;
@@ -22,7 +22,7 @@ public class NachylenieAc extends AppCompatActivity implements SensorEventListen
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_nachylenie);
+        setContentView(R.layout.activity_temperatura);
 
         textview = findViewById(R.id.textView3);
         sensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);

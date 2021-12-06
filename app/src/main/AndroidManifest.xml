@@ -18,7 +18,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.NarzędziaMajsterkowicza">
         <activity
-            android:name=".NachylenieAc"
+            android:name=".TemperaturaAc"
             android:exported="false" />
         <activity
             android:name=".ScannerAC"
