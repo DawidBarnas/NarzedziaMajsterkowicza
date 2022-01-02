@@ -4,15 +4,16 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/black"
+    android:background="@drawable/tloakcel"
     tools:context=".AkcelerometrAc">
 
     <TextView
         android:id="@+id/xValues"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="200dp"
         android:text="TextView"
+        android:textSize="48sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -25,7 +26,8 @@
         android:text="TextView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/xValues" />
+        app:layout_constraintTop_toBottomOf="@+id/xValues"
+        android:textSize="48sp"/>
 
     <TextView
         android:id="@+id/zValues"
@@ -35,5 +37,6 @@
         android:text="TextView"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/yValues" />
+        app:layout_constraintTop_toBottomOf="@+id/yValues"
+        android:textSize="48sp"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

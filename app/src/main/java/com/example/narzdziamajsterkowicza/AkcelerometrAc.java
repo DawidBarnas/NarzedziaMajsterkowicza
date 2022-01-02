@@ -46,9 +46,9 @@ public class AkcelerometrAc extends AppCompatActivity implements SensorEventList
     public void onSensorChanged(SensorEvent sensorEvent) {
         Log.d(TAG, "onSensorChanged: X: " + sensorEvent.values[0] + "Y: " + sensorEvent.values[1] + "Z: " + sensorEvent.values[2]);
 
-        xValues.setText("xValue: " + sensorEvent.values[0]);
-        yValues.setText("yValue: " + sensorEvent.values[1]);
-        zValues.setText("zValue: " + sensorEvent.values[2]);
+        xValues.setText("X: " + sensorEvent.values[0]);
+        yValues.setText("Y: " + sensorEvent.values[1]);
+        zValues.setText("Z: " + sensorEvent.values[2]);
 
     }
 
