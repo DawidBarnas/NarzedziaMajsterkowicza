@@ -13,18 +13,18 @@ import android.widget.TextView;
 import java.text.BreakIterator;
 
 public class TemperaturaAc extends AppCompatActivity implements SensorEventListener {
-    private TextView textview;
+    private TextView textView3;
     private SensorManager sensorManager;
     private Sensor tempSensor;
     private Boolean isTemperatureSensoreAvailable;
-    private BreakIterator textView;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_temperatura);
 
-        textview = findViewById(R.id.textView3);
+        textView3 = findViewById(R.id.textView3);
         sensorManager = (SensorManager) getSystemService(Context.SENSOR_SERVICE);
 
         if(sensorManager.getDefaultSensor(Sensor.TYPE_AMBIENT_TEMPERATURE)!=null)
@@ -32,14 +32,15 @@ public class TemperaturaAc extends AppCompatActivity implements SensorEventListe
             tempSensor = sensorManager.getDefaultSensor(Sensor.TYPE_AMBIENT_TEMPERATURE);
             isTemperatureSensoreAvailable = true;
         }else{
-            textView.setText("Temperature sensor is not Availible");
+            textView3.setText("No sensor.");
             isTemperatureSensoreAvailable = false;
         }
     }
 
     @Override
     public void onSensorChanged(SensorEvent sensorEvent) {
-textview.setText(sensorEvent.values[0]+" °C");
+    textView3.setText(sensorEvent.values[0]+" °C");
+
     }
 
     @Override
